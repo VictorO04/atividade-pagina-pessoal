@@ -31,7 +31,7 @@ header {
 }
 
 .header-container {
-    position: fixed;
+    position: absolute;
     text-align: center;
     flex-direction: column;
     font-size: 20px;
@@ -80,11 +80,19 @@ main {
 }
 
 .habilidades h2 {
+    text-align: center;
     font-size: 37px;
     margin-bottom: 50px;
 }
 
-#frontend {
+.habilidades-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+
+#frontend, #backend {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,35 +103,25 @@ main {
     font-size: 20px;
 }
 
-#frontend-titulo {
+#frontend-titulo, #backend-titulo {
     margin-bottom: 160px;
 }
 
-#frontend-lista {
-    position: fixed;
+#frontend-lista, #backend-lista {
+    position: absolute;
     list-style-type: none;
     text-align: center;
     margin-top: 60x;
 }
 
-#backend {
-    display: flex;
+.contatos {
     justify-content: center;
-    align-items: center;
-    height: 250px;
-    width: 210px;
-    border: 2px solid rgb(134, 108, 156);
-    border-radius: 10px;
-    font-size: 20px;
-}
-
-#backend-titulo {
-    margin-bottom: 160px;
-}
-
-#backend-lista {
-    position: fixed;
-    list-style-type: none;
     text-align: center;
-    margin-top: 60x;
+    margin-top: 50px;
+}
+
+.contatos img {
+    margin-top: 30px;
+    height: 65px;
+    width: 120px;
 }
