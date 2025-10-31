@@ -24,33 +24,31 @@ body.escuro {
 header {
     display: flex;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
     background-color: rgb(56, 26, 85);
     color: white;
+    padding: 15px 30px;
+    flex-wrap: wrap;
 }
 
 .header-container {
     position: absolute;
     text-align: center;
-    flex-direction: column;
     font-size: 20px;
-    margin-top: 10px;
+    margin: 0;
+    
 }
 
 button {
-    margin-left: 1500px;
-    background-color: rgb(255, 255, 255);
-    width: 100px;
+    background-color: white;
     border: none;
     cursor: pointer;
     padding: 10px 24px;
     font-size: 1rem;
     border-radius: 8px;
     transition: all 0.3s;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 1000px;
 }
 
 button:hover {
